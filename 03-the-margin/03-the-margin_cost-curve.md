@@ -30,7 +30,7 @@
 ## Pricing Model
 
 * **Current pricing:** $45.00 / user / month (Flat-rate SaaS baseline)
-* **Proposed AI pricing:** $65.00 / user / month + tiered volume overage blocks
+* **Proposed AI pricing:** $45.00 / user / month base + $0.15 per verified outcome unit overage block
 * **Model:** Hybrid (Seat-based floor with usage-based overage tiers tied to heavy ambient transcription volume)
 
 ## Stress Tests
