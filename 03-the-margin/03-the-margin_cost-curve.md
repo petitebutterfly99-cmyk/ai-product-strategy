@@ -11,6 +11,15 @@
 | Human-in-the-loop | $0.45 | Exception review queue fallback for sub-85% confidence extractions |
 | **Total AI COGS** | **$2.68** | Blended monthly operating cost per active user |
 
+
+## Justification of the Model
+
+* **Small Tier (e.g., GPT-4o-mini):** Used for high-volume, low-complexity tasks like initial token classification and basic intent tagging because its sub-millisecond latency and ultra-low cost protect gross margins on routine inputs.
+
+* **Mid Tier (e.g., Claude Sonnet):** Deployed for core semantic extractions and structured field note mapping because it strikes the optimal balance between high syntactic accuracy and moderate compute expense.
+
+* **Frontier Tier (e.g., o3 / Claude Opus):** Reserved for low-volume, high-complexity exceptions and multi-system edge cases because its advanced reasoning capabilities guarantee error resolution when confidence scores drop below safety thresholds.
+
 ## Cascading Strategy
 
 * **Triage model:** GPT-4o-mini
