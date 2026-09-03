@@ -43,6 +43,13 @@
 
 ## Board One-Pager
 
+**Cost of one successful AI outcome:** $0.0178 (Calculated by taking the total blended monthly AI COGS per user of $2.68 and dividing it by an average baseline volume of 150 requests/outcomes per month).
+
+**Price charged for that outcome:** $0.325 blended revenue per outcome unit (Derived from the hybrid pricing model, which generates $48.00 total monthly revenue per user—$45.00 base for the first 200 units plus an average overage capture—across 150–200 volume units).
+
+**Impact of tripling usage:** If request volume triples from 150 to 450 requests per user/month, monthly AI COGS surges linearly from $2.68 to $8.04 per user. Under a flat-rate base pricing structure, this volume spike would rapidly erode profit margins; however, because the hybrid model captures outcome-based overage fees ($0.15 per unit over baseline), top-line revenue scales alongside compute costs, protecting profitability and keeping gross margins structurally resilient above 80%.
+
+
 * **Before (traditional SaaS):** 85% gross margins with predictable, low-maintenance hosting and storage costs.
 * **After (AI-enabled):** 94% gross margin at baseline, dropping to 81% under extreme token shock; protected by intelligent model cascading and hybrid pricing tiers.
 * **Net margin shift:** -4% to +9% depending on successful enforcement of cascading routing and hybrid overage capture.
