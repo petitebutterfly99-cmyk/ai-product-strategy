@@ -73,9 +73,6 @@ U AI Act (High-Risk AI Systems Annex III / Critical Infrastructure & Service Man
 **Estimated hidden spend:**
 
 
-## Agent Topology
-
-
 
 
 
