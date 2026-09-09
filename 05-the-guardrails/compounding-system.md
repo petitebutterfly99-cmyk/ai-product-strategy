@@ -70,15 +70,45 @@ U AI Act (High-Risk AI Systems Annex III / Critical Infrastructure & Service Man
 
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+### Discover, User-Side Workarounds
+- Field technicians and dispatchers using external LLM wrappers or custom GPTs to parse shorthand voice notes and format raw work orders before manual CRM entry. | source: Support ticket | signal: Capability gap 
+- Supervisors setting up private Zapier/Make automations to bridge unstructured voice transcripts directly into secondary Jira parts tracking systems outside official connectors. | source: Zapier/Make | signal: Workflow gap 
+- Regional teams maintaining custom spreadsheets and local macro scripts to cross-reference ambiguous contract numbers and resolve facility name collisions. | source: Sales call | signal: Trust gap 
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+
+| Tool | Owner | Risk Level | Decision |
+| :--- | :--- | :--- | :--- |
+| External LLM wrappers & custom GPTs for voice note parsing | Field Operations / Dispatch | M | Govern |
+| Private Zapier/Make automations bridging CRM to Jira | Enterprise Integrations | H | Kill |
+| Regional spreadsheets and local macro scripts for contract cross-referencing | Regional Admin Teams | L | Keep |
+
+### Shadow AI Audit Metrics
+* **Total tools found:** 3
+* **Tools after triage:** 2
+* **Estimated hidden spend:** $4,500/mo ($1,200/mo in manual entry labor, $2,500/mo in prevented ticket errors, and $800/mo in administrative overhead)
+
+
+## Action Plan
+
+### Build
+* Field Technician Shorthand Parsing ($1,200/mo saved in labor): Absorb native audio-to-CRM transcription and shorthand normalization directly into the QuietOps workflow, eliminating the need for external LLM wrappers by baking real-time entity extraction and validation into the core interface.
+* Secondary Jira Parts Bridging ($2,500/mo in prevented ticket errors): Integrate automated bi-directional synchronization between CRM contract registries and Jira parts tracking natively into the product suite to remove the dependency on brittle custom Zapier loops.
+
+### Partner
+Cross-Reference & Contract Resolution ($800/mo in administrative overhead): Establish an official integration with regional enterprise middleware and directory tools rather than rebuilding custom multi-tenant directory lookups from scratch, allowing teams to leverage existing identity and master data management systems securely.
+
+### Ignore + Monitor
+Local Macro Scripts & Spreadsheets: Accept that edge-case power users will maintain legacy personal calculation sheets for fringe billing formulas, but actively monitor support channels to catch when these external tools signal a genuine capability or workflow gap requiring future native absorption.
+
+## Roadmap Brief
+Based on your audit: 3 user-side workarounds discovered.
+Decisions: 2 build · 1 partner · 0 ignore · 0 TBD.
+Estimated adjacent spend: $4500/mo across surveyed users.
+Dominant signal: Capability gap.
+
+Recommended next step: Capability gaps dominate, users want something your product does not do. Strongest near-term move is building one or two of these natively before a competitor does.
+
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
 
 
 
