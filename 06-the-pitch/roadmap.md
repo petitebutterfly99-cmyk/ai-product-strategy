@@ -1,4 +1,36 @@
-# Three-Horizon Roadmap & Board Pitch
+# Three-Horizon Roadmap & Board Pitch: QuietOps / Draftless / ZeroForm 
+
+# AI Evaluation
+
+## Overall Score
+
+**2.6/5**
+
+## Biggest Risk
+
+The product reaches **technical feasibility without strategic necessity**: it works reasonably well, but customers do not trust it enough for autonomous operation or derive enough differentiated value to justify putting another enterprise layer between their communications and systems of record.
+
+In that scenario, Microsoft/Salesforce improving native extraction and workflow capabilities compresses the remaining differentiation.
+
+## Top 3 Actions
+
+1. **Run a narrowly scoped 4–6 week production pilot** with predefined adoption, ROI, accuracy, exception-rate, and kill thresholds.
+
+2. **Expand the 14-row golden dataset into a production-grade evaluation system** and establish decision-specific reliability metrics before raising autonomy.
+
+3. **Redesign defensibility around the proprietary operational entity graph and accumulated correction/context data.** Defer federated learning and demonstrate that customer-specific learning measurably improves performance over time.
+
+## Strategic Conclusion
+
+The central issue is that **the strategy is currently more mature than the evidence underneath it**.
+
+There are sophisticated answers for architecture, governance, inference optimization, and future defensibility, but comparatively thin evidence for the three questions that matter first:
+
+- **Do users repeatedly want it?**
+- **Does it reliably perform the job?**
+- **Does the resulting customer value comfortably exceed the cost and integration burden?**
+
+Resolving those questions should precede most of the more ambitious platform work.
 
 ## Roadmap
 
