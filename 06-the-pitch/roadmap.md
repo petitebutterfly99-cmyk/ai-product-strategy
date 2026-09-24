@@ -34,7 +34,7 @@ Resolving those questions should precede most of the more ambitious platform wor
 
 ## Roadmap
 
-## Horizon 1, Ship (0–4 weeks)
+### Horizon 1, Ship (0–4 weeks)
 
 | Initiative | Strategy Component | Why it ships now | Confidence |
 |---|---|---|---|
@@ -65,7 +65,7 @@ Resolving those questions should precede most of the more ambitious platform wor
 
 The strategy explicitly calls out model-routing cost reduction, confidence gating, correction loops, agent boundaries, and enterprise governance, making these the highest-confidence implementation work.
 
-## Horizon 2, Validate (1–3 months)
+### Horizon 2, Validate (1–3 months)
 
 | Initiative | Strategy Component | Hypothesis | Kill Criteria | Confidence |
 |---|---|---|---|---|
@@ -84,7 +84,7 @@ The strategy explicitly calls out model-routing cost reduction, confidence gatin
 
 The review queue is especially important because the stated kill criteria explicitly includes users bypassing the confidence-gated review loop, while the current golden dataset contains only 14 rows.
 
-## Horizon 3, Explore (3–6 months)
+### Horizon 3, Explore (3–6 months)
 
 | Initiative | Strategy Component | What must be true first | Confidence |
 |---|---|---|---|
@@ -94,7 +94,7 @@ The review queue is especially important because the stated kill criteria explic
 
 This is intentionally a **small H3 portfolio**. The strategy already proposes federated learning as the encroachment defense, but the current data flywheel is only 8/20 and the network loop is 1/5.
 
-## Unmapped (cut or rethink)
+### Unmapped (cut or rethink)
 
 The dominant noise is **duplication**, not strategically unrelated ideas.
 
