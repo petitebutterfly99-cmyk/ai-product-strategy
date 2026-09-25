@@ -150,23 +150,27 @@ There are no visible `[User-mapped to: X]` annotations on the supplied initiativ
 
 ## Board Pitch
 
-**Thesis (1 sentence):**
+**Thesis:**  
+QuietOps// Draftless / ZeroForm turns unstructured technician communication into trusted, completed operational work, and we are asking for six months to prove that it can eliminate meaningful administrative cost without creating another manual review burden.
 
 **The case:**
-1. Why now:
-2. What's defensible:
-3. The economics:
+1. Why now: We already see three user workarounds, two build candidates, and approximately $4,500 per month in adjacent customer-side cost from manual entry, ticket errors, and administration. We have a working prototype and enough technical capability to test the workflow now; the missing evidence is whether customers repeatedly use it, trust it, and receive enough economic value to justify another enterprise layer.
+2. What's defensible: The defensibility thesis is not the underlying AI. Today, that moat is weak: the data flywheel scores 8/20 and the network loop 1/5. The asset we intend to prove is the customer-specific operational context accumulated from technician corrections, site and contract mappings, equipment terminology, service history, and exception resolution. If those corrections do not measurably improve accuracy and reduce repeat exceptions, we do not have the moat we claim.
+3. The economics: AI-adjusted gross margin starts at 54% versus a 78% traditional SaaS baseline, with approximately $2.68 of AI COGS per completed work order. The plan is to move from a $45/user flat seat toward approximately $60/user plus transaction bundles while using model routing, caching, and cheaper inference for routine work to target more than 40% inference-cost compression. We should not assume that recovery: the six-month validation must demonstrate that customer value and willingness to pay comfortably exceed inference and integration costs.
 
 **The risks:**
-1. Trust / failure modes:
-2. Scale / governance:
-3. Competitive:
+1. Trust / failure modes: The critical failure is confidently linking a technician's input to the wrong site, contract, or service obligation and allowing that error to propagate into operational systems. The proposed contract is confidence-gated automation: verified high-confidence matches can proceed; ambiguous matches enter human review; unrecognized inputs are quarantined. The current 93% reliability target is not yet adequately proven—the golden dataset contains only 14 rows—so expanding production-grade evaluation is a prerequisite to greater autonomy.
+2. Scale / governance: At 10x usage, the first constraints are inference cost, integration reliability, and the human exception queue. We will instrument unit COGS, log AI decisions and overrides, enforce idempotent downstream writes, scrub sensitive data, and measure human exceptions per work order. If scaling automation simply scales the number of humans required to review it, the economics fail.
+3. Competitive: The clearest threat is Salesforce or Microsoft absorbing enough transcription, extraction, entity matching, and workflow automation into products customers already own. We should not try to outrun them on generic AI capability. We continue only if customer-specific operational data produces measurable accuracy and workflow advantages that improve with use; otherwise the differentiated layer is too thin to justify continued investment.
 
-**The ask:**
+**The ask:**  
+Approve **$500K, three engineers and one product manager, for a six-month validation phase**. That investment gets us a narrowly scoped production pilot, a production-grade evaluation dataset, validated confidence and exception thresholds, measured customer ROI and unit economics, and evidence for or against the customer-specific data moat. We will use explicit checkpoints rather than treating six months as guaranteed build time: prove adoption and workflow value first, reliability and economics next, then repeatability and defensibility. Funding this means broader platform expansion, federated-learning infrastructure, and additional autonomous integrations wait until those gates are passed.
 
 ## M1 Baseline vs. Now
 *Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
 
 **M1 baseline:**
+We are transforming manual quoting into a streamlined, high-volume transactional protocol by introducing direct EDI ingestion and responsive SAP Commerce Cloud tools. Our approach couples multi-system orchestration with foundational automation to remove friction across web, mobile, and partner channels. Ultimately, this shifts our commercial ecosystem from reactive manual reviews to real-time, data-driven execution.
 
 **Now:**
+Our AI strategy turns messy field communication into trusted, completed operational work by targeting administrative friction and costly manual entry. We earn automation through production evidence—balancing ambient capture and entity resolution with strict exception guardrails and human-in-the-loop review. Our long-term moat comes not from owning foundational models, but from accumulating proprietary operational context and corrections that protect our margins and deepen enterprise switching costs.
