@@ -18,7 +18,7 @@ In that scenario, Microsoft/Salesforce improving native extraction and workflow 
 
 3. **Redesign defensibility around the proprietary operational entity graph and accumulated correction/context data.** Defer federated learning and demonstrate that customer-specific learning measurably improves performance over time.
 
-### Strategic Conclusion
+### AI Evaluation: Strategic Conclusion
 
 The central issue is that **the strategy is currently more mature than the evidence underneath it**.
 
