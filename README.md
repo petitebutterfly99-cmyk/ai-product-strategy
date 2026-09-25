@@ -103,12 +103,12 @@
 
 **How you get this funded, shipped, and adopted.**
 
-- **Horizon 1 (Now):**
-- **Horizon 2 (Next):**
-- **Horizon 3 (Bet):**
-- **Board Narrative:** **The case:**
-- **Ask:** ## M1 Baseline vs. Now
-- **Key Strategic Change:**
+- **Horizon 1 (Now):** Build the trusted core. Ship the minimum production foundation needed to test QuietOps in a real workflow: voice capture and transcription, CRM/site matching, confidence scoring and quarantine, human review, CRM/Jira confirmations, audit/security controls, and the first cost-management and customer-specific learning mechanisms. The goal is not feature breadth; it is getting one end-to-end workflow into users’ hands while instrumenting reliability, behavior, and unit economics.
+- **Horizon 2 (Next):** Prove it deserves to scale. Use production pilots to test the assumptions behind the Bet, Moat, Contract, and Guardrails: Do technicians keep using voice capture? Does entity resolution reach the required accuracy? Does HITL catch errors without becoming a bottleneck? Do integrations actually eliminate manual work? Do accumulated corrections improve performance? And do enterprise security controls remove deployment objections? Each initiative has a kill criterion so this horizon should produce continue, redesign, or stop decisions—not simply more features.
+- **Horizon 3 (Bet):** Expand only what earned the right to exist. If H2 proves customer value, reliability, and learning effects, explore the larger strategic advantages: automated domain adaptation, cross-tenant/federated learning, and broader autonomous execution beyond CRM/Jira. This is intentionally a small portfolio because the current data flywheel is only 8/20 and the network effect 1/5; H3 is where you test whether QuietOps can become a compounding operational intelligence layer rather than just a useful AI workflow feature.
+- **Board Narrative:** QuietOps// Draftless / ZeroForm turns unstructured technician communication into trusted, completed operational work, and we are asking for six months to prove that it can eliminate meaningful administrative cost without creating another manual review burden.
+- **Ask:** Approve $500K, three engineers and one product manager, for a six-month validation phase. That investment gets us a narrowly scoped production pilot, a production-grade evaluation dataset, validated confidence and exception thresholds, measured customer ROI and unit economics, and evidence for or against the customer-specific data moat. We will use explicit checkpoints rather than treating six months as guaranteed build time: prove adoption and workflow value first, reliability and economics next, then repeatability and defensibility. Funding this means broader platform expansion, federated-learning infrastructure, and additional autonomous integrations wait until those gates are passed.
+- **Key Strategic Change:** Moving from a "Digitized Feature" mindset to an "Economic Moat" mindset.
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
 
