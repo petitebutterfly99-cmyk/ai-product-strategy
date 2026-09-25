@@ -1,16 +1,16 @@
 # Three-Horizon Roadmap & Board Pitch for QuietOps / Draftless / ZeroForm 
 
-### AI Evaluation
+## AI Evaluation
 
-### Overall Score **2.6/5**
+**Overall Score** 2.6/5
 
-### Biggest Risk
+**Biggest Risk**
 
 The product reaches **technical feasibility without strategic necessity**: it works reasonably well, but customers do not trust it enough for autonomous operation or derive enough differentiated value to justify putting another enterprise layer between their communications and systems of record.
 
 In that scenario, Microsoft/Salesforce improving native extraction and workflow capabilities compresses the remaining differentiation.
 
-### Top 3 Actions
+**Top 3 Actions**
 
 1. **Run a narrowly scoped 4–6 week production pilot** with predefined adoption, ROI, accuracy, exception-rate, and kill thresholds.
 
@@ -18,7 +18,7 @@ In that scenario, Microsoft/Salesforce improving native extraction and workflow 
 
 3. **Redesign defensibility around the proprietary operational entity graph and accumulated correction/context data.** Defer federated learning and demonstrate that customer-specific learning measurably improves performance over time.
 
-### AI Evaluation: Strategic Conclusion
+**Strategic Conclusion**
 
 The central issue is that **the strategy is currently more mature than the evidence underneath it**.
 
